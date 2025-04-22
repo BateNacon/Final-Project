@@ -68,6 +68,8 @@ void loop() {
   RIGHTservo.write(R_CAL); // turn right wheel forward
   LEFTservo.write(L_CAL); //  turn left wheel forward
 
+  println("hi");
+
     //STEP 4 --Spin
   RIGHTservo.write(R_CAL - SERVO_OFFSET);
   LEFTservo.write(L_CAL - L_SERVO_OFFSET);
